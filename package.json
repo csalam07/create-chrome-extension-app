@@ -1,0 +1,47 @@
+{
+	"name": "create-chrome-extension-app",
+	"description": "Command Line Interface for creating google chrome entensions",
+	"version": "0.0.1",
+	"license": "MIT",
+	"type": "module",
+	"bin": {
+		"create-chrome-extension-app": "index.js",
+		"create-extension": "index.js"
+	},
+	"author": {
+		"name": "csalam07",
+		"email": "alamcs50@gmail.com",
+		"url": "https://linkedin.com/in/shahbajz-alam-b47678193"
+	},
+	"keywords": [
+		"create-chrome-extension-app",
+		"cretae browser extension",
+		"cretae google extension",
+		"cbr",
+		"csalam07"
+	],
+	"files": [
+		"index.js",
+		"utils",
+		"templates"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"copy-template-dir": "^1.4.0",
+		"inquirer": "^9.2.6",
+		"meow": "^9.0.0",
+		"nanospinner": "^1.1.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8"
+	}
+}
